@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinky's Portfolio</title>
+    <link rel="stylesheet" href="Pinky.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo">Pinky's <span>Portfolio</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="darkmode-toggle" class="btn">
+            <div class="btn__indicator">
+                <div class="btn__icon-container">
+                    <i class="btn__icon fa-solid"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I am <span>PINKY</span></h1>
+            <h3 class="text-animation">I'm a <span>Web Developer</span></h3>
+            <p>Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and AI/ML. I'm constantly exploring new technologies and aim to create impactful solutions.</p>
+            <div class="btn-group">
+                <a href="https://docs.google.com/document/d/1gVKW10F4JDmE9IAaiIDOb6p2sUrOc0J4amB8wAAkEmY/edit?usp=sharing" download class="btn">Download Resume</a>
+
+        </div>
+        <div class="home-img">
+            <img src="job.pinky.jpg" alt="Pinky's Picture">
+        </div>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Secondary School</h3>
+                    <p>Class 10th || Paivate Girls Secondary School || RBSE Board, Rajasthan || Year of Passing: 2019 || Percentage: 62.67%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Senior Secondary School</h3>
+                    <p>Class 12th || Paivate Girls Senior Secondary School ||RBSE Board, Rajasthan || Year of Passing: 2021 || Percentage: 79.40%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>University of Rajasthan</h3>
+                    <p>Bachelor of Arts || Mahendipur Balaji (Dausa),Rajasthan of University || Graduation Year: 2024 || Percentage: 61.44%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Web Development Course</h3>
+                    <p>18-month course focusing on JavaScript, HTML, CSS, and problem-solving skills.Software tools: VS Code, GitHub, MS Office</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="projects" class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="filter-buttons">
+    </div>
+ 
+    <div class="project-container">
+        <div class="project-card">
+            <h3> Memory Game:</h3>-
+            <p>A fun and interactive memory card game developed using HTML, CSS, and JavaScript. The game challenges users to match pairs of cards by flipping them over, testing both memory and concentration skills. It features a timer and a scoring system to track performance.
+            </p>
+            <a href="
+            https://pinkybairwa.github.io/Memory-game/
+            " class="project-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>A simple yet functional calculator application built using HTML, CSS, and JavaScript. It supports basic arithmetic operations like addition, subtraction, multiplication, and division, offering a user-friendly interface for performing quick calculations.
+            </p>
+            <a href="
+            https://pinkybairwa.github.io/Calculator/" class="project-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List</h3>
+            <p>A task management app created using HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks, helping them stay organized. The application also includes a feature to mark tasks as completed, offering an intuitive way to manage daily activities.
+            </p>
+            <a href="
+            https://pinkybairwa.github.io/todo-list/" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://drive.google.com/file/d/1EUY5WFS-ZwhPiZD3AtGR8it5GIYZEf0J/view?usp=sharing" method="POST" id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" name="name" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="email" name="email" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number" id="phone" name="phone" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" id="subject" name="subject" autocomplete="off" required />
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="textarea" autocomplete="off" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="pinkybairwa23@navgurukul.org" target="_blank"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/PinkyBairwa" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/pinky-bairwa-329b96299/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="pinkybairwa23@navgurukul.org">Email</a></li>
+            <li><a href="https://github.com/PinkyBairwa">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/pinky-bairwa-329b96299/">LinkedIn</a></li>
+        </ul>
+        <p class="copyright">
+            <i class='bx bx-copyright'></i> | Created By Pinky| 2024
+        </p>
+    </footer>
+
+    <!-- JavaScript for dark mode toggle -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Pinky.js"></script>
+</body>
+
+</html>
